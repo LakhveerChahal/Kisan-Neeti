@@ -1,0 +1,45 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style2 {
+            height: 122px;
+            width: 1334px;
+            margin-bottom: 0px;
+        }
+        .auto-style4 {
+            height: 0px;
+            width: 1364px;
+            margin-bottom: 0px;
+        }
+        .auto-style5 {
+            width: 1354px;
+            height: 138px;
+            margin-right: 0px;
+            margin-top: 0px;
+        }
+        .auto-style6 {
+            position: relative;
+            left: 6px;
+            top: -37px;
+            width: 143px;
+            height: 35px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <p class="auto-style2">
+            <img alt="" class="auto-style5" src="landpic.png" /><asp:ImageButton ID="ImageButton1" runat="server" CssClass="auto-style6" ImageUrl="~/home.jpg" />
+        <p class="auto-style4">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+    </body>
+</html>
